@@ -41,6 +41,10 @@ static uint8_t advertising_set_handle = 0xff;
  *****************************************************************************/
 SL_WEAK void app_init(void)
 {
+
+  app_log_info("%s\n", __FUNCTION__);
+
+
   /////////////////////////////////////////////////////////////////////////////
   // Put your additional application init code here!                         //
   // This is called once during start-up.                                    //
